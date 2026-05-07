@@ -1,83 +1,48 @@
 # AI Powered Task Management System
 
-Machine Learning based AI-powered task management system that predicts and manages tasks intelligently using NLP and classification models.
+## 🚀 Live Demo
+Streamlit App: https://ai-task-management-system-hqf5fmzvtdpha8dyh2vmhn.streamlit.app/
+## 📌 Project Overview
+AI Powered Task Management System is a Machine Learning based web application that helps users manage and prioritize tasks intelligently. The system predicts task categories and priorities using trained ML models and provides an interactive web interface using Streamlit.
 
----
+## ✨ Features
+- Smart Task Prediction
+- AI-based Priority Detection
+- User Friendly Interface
+- Machine Learning Integration
+- Real-time Predictions
+- Streamlit Web Application
 
-## Features
-
-- Task classification
-- Priority prediction
-- NLP-based task analysis
-- Multiple ML models
-- Streamlit/Python interface
-
----
-
-## Tech Stack
-
+## 🛠️ Tech Stack
 - Python
+- Streamlit
 - Scikit-learn
+- XGBoost
 - Pandas
 - NumPy
-- NLP
-- Jupyter Notebook
+- Joblib
 
----
+## 📂 Dataset
+Dataset Link (Google Drive): https://drive.google.com/file/d/1wd8_4-NglkuWItDjRKDalJ2QuetxEE9u/view?usp=drive_link
 
-## Project Structure
-
-```text
-AI-Task-Management-ML/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── ai_task_management_system.ipynb
-```
-
----
-
-## Dataset
-
-The dataset files are not uploaded to GitHub because of large file size.
-
-Download dataset from Google Drive:
-
-[https://drive.google.com/file/d/1wd8_4-NglkuWItDjRKDalJ2QuetxEE9u/view?usp=drive_link]
-
-After downloading, place the dataset inside the project folder.
-
----
-
-## Model Files
-
-The `.pkl` model files are not uploaded to GitHub.
-
-They will be generated automatically after training the model.
-
-Run:
-
-```bash
-python train_model.py
-```
-
-OR run the notebook:
-
-```bash
-ai_task_management_system.ipynb
-```
-
-This will automatically create:
+## 🤖 Machine Learning Models
+Included model files:
+- task_model.pkl
+- tfidf.pkl
 - model.pkl
 - final_model.pkl
-- priority_model.pkl
+- nb_model.pkl
 - svm_model.pkl
-- tfidf.pkl
 
----
+Note: `priority_model.pkl` is not included because of its very large file size.
 
-## Installation
+## ▶️ Run Locally
+
+Go to project directory:
+
+```bash
+cd AI-Task-Management-System
+```
 
 Install dependencies:
 
@@ -85,16 +50,25 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
-
-## Run Project
+Run the Streamlit app:
 
 ```bash
-python app.py
+streamlit run app.py
 ```
+## 📸 Project Screenshot
 
----
+![Project Screenshot](Screenshots/Screenshot.png.png)
 
-## Author
+![Project Screenshot](Screenshots/Screenshot2.png.png)
+![Project Screenshot](Screenshots/Screenshot3.png.png)
+
+👨‍💻 Author
 
 Krishna Gupta
+GitHub: https://github.com/krishnag5465
+
+📬 Contact
+
+For any queries or collaboration opportunities, feel free to connect.
+
+
