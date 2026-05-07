@@ -1,12 +1,12 @@
+# Model files
+*.pkl
+
 # Dataset files
 *.csv
 *.xls
 *.xlsx
 
-# Model files
-*.pkl
-
-# Jupyter checkpoints
+# Notebook checkpoints
 .ipynb_checkpoints/
 
 # Python cache
